@@ -1,0 +1,25 @@
+package day7.classwork;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class arrayuser {
+
+
+        public static void main(String[] args) {
+            int[] arr = new int[5];
+            Scanner sc = new Scanner(System.in);
+
+            for (int i = 0; i < 5; i++) {
+                System.out.print("enter the value:");
+                arr[i] = sc.nextInt();
+            }
+            System.out.println(Arrays.toString(arr));
+
+        }
+    }
+
+
+
+
+
