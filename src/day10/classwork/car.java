@@ -9,7 +9,8 @@ public class car {
     int maxspeed=40;
 
 
-    public void Accelerete(){
+    public void Accelerate(){
+
         if(speed<40){
             speed=speed+5;
             System.out.println("car moving at speed: "+speed+"km speed ");
@@ -31,6 +32,11 @@ public class car {
     }
     public static void main(String[]args){
         car c1=new car();
+
+
+
+
+
         car c2=new car();
         car c3=new car();
 
@@ -40,15 +46,15 @@ public class car {
         System.out.println(" c1 brand :" + c1.Brand);
         System.out.println(" c1 model "+ c1.Model);
         System.out.println(" c1 colour "+c1.Colour);
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
-        c1.Accelerete();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
+        c1.Accelerate();
 
 
         c2.Brand="audi";
@@ -60,4 +66,5 @@ public class car {
         c2.Break();
     }
 }
+
 
