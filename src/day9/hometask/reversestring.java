@@ -1,6 +1,5 @@
-package day9.classwork;
+package day9.hometask;
 
-import java.util.Scanner;
 import java.util.Arrays;
 
 public class reversestring {
