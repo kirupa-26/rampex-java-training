@@ -1,4 +1,4 @@
-package day10.classwork;
+package day10.hometask;
 
 public class House {
 
