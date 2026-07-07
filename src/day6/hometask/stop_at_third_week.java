@@ -1,4 +1,4 @@
-package day6.classwork;
+package day6.hometask;
 
 public class stop_at_third_week {
 
