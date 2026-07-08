@@ -14,12 +14,12 @@ public class House {
 
     public static void main(String[] args){
         House shome=new House();
-        House srirajhome=new House();
+        House srihome=new House();
 
-        shome.owner="satheesh";
+        shome.owner="sam";
 
         System.out.println(shome.owner);
-        srirajhome.owner="sriraj";
-        System.out.println(srirajhome.owner);
+        srihome.owner="sri";
+        System.out.println(srihome.owner);
     }
 }
