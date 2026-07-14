@@ -7,6 +7,7 @@ public class SynchronizedMethods {
         public static void main(String[] args) {
 
 
+
         }
 
         class GpayAccount extends Thread{

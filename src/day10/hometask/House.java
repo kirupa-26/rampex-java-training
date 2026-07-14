@@ -2,7 +2,7 @@ package day10.hometask;
 
 public class House {
 
-    String color="skyblue";
+    String colour="skyblue";
     int doors=3;
     int windows=10;
     int bhk=2;
