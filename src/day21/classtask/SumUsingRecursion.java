@@ -11,10 +11,13 @@ public class SumUsingRecursion {
 
             if(num == 5){
                 return ;
+
             }
             sum = sum +num;
             num++;
             System.out.println(sum);
+
+
             adder(num,sum);
         }
     }
